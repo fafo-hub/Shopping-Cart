@@ -1,0 +1,165 @@
+@charset 'utf-8';
+/* CSS Document*/
+body{
+	margin:0;
+	padding:0;
+} 
+header{
+	padding: 5px 30px 0px;
+	background-color: rgba(225,225,225,0.6);
+}
+a:hover{
+	color:#ff4f81; 
+}
+a:active{
+	background-color:#007bff;
+}
+a:visited{
+	background-color:yellow;
+}
+.hat{
+	float:left;
+	display:inline-block;
+}
+.title-color{
+	text-transform:uppercase;
+	color:#ff4181;
+}
+.search-my{
+	float:right;
+	border:3px #000 solid;
+}
+.search1{
+	border:none;
+	background-color:#fff;
+	width:150px;
+	background-color:transparent;
+}
+.button1{
+	color:#fff;
+	background-color:#000;
+	border:none;
+	height:40px;
+	width:40px;
+}
+.nav1{
+	background-color:rgba(225,225,225,0.6);
+	text-align:center;
+}
+.navbar{
+	padding:0px;
+}
+.navbar-nav li{
+	z-index: 1;
+}
+.navbar-nav li a{
+	font-size:17px;
+	padding:15px 60px!important;
+}
+.navbar-nav li a:hover{
+	border-right:3px solid #ff4f81;
+	border-left:3px solid #ff4f81;
+	transition: 0.5s all;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#007bff;
+}
+@media(max-width:1200px){
+	.navbar-nav li{
+		font-size: 15px;
+	}
+}
+@media (max-width:992px){
+	.navbar-toggler{
+		margin:10px 0px 10px 30px;
+		background-color:#ff4f81;
+	}
+	.navbar-toggler:hover, .navbar-toggler:focus{
+		background-color:#ff4f81;
+		border-color:#ff4f81;
+	}
+	.navbar-light{
+		background-color:#fff;
+	}
+	.navbar-nav li a{
+		text-align:center;
+		background-color:aliceblue;
+	}
+	.navbar-nav li a:hover{
+		background-color:#ff4f81;
+	}
+}
+.join{
+	color:#ff4f81;
+	background-color: rgba(225,225,225,0.6);
+	padding-top:150px; 
+	padding-bottom:50px ;
+	padding-right: :10px ;
+	padding-left:10px ;
+	text-align:center;
+	text-transform:lowercase;
+}
+.questions{
+	margin-right: 50px; 
+	margin-left:50px;
+}
+.intro{
+	background-color:rgba(225,225,225,0.6);
+}
+.introduce{
+	color:#ff4f81;
+	text-align:center;
+}
+.line1{
+	border:3px solid #ff4f81;
+}
+.bodytext {
+	background-color:rgba(225,225,225,0.6);
+}
+.them{
+	background-color:rgba(225,225,225,0.6);
+}
+.themes{
+	color:#ff4f81;
+}
+.foot {
+	background-color:rgba(225,225,225,0.6);
+}
+
+/* Fafo */
+.container-1 {display: flex;
+flex-direction: column;}
+.container-1 div {border:1px #ccc solid;
+padding:5px;}
+#service-image {
+	background-color: steelblue;
+
+}
+img {
+     width: 100%;
+	 height: 25em;
+	 opacity: 0.5;
+}
+.title {
+	position: absolute;
+	left: 18.5em;
+	top: 350px;
+	font-weight: 600; 
+}
+
+.main {
+	text-align: center;
+}
+@media screen and (max-width: 900px) {
+	body {
+		max-width: 100%;
+
+	}
+.title {
+	position: absolute;
+	top: 355px;
+	left: 110px;
+}
+.nav-link {
+	color: blue;
+}
